@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Set Boundaries</title>
+  <style>
+    body {
+      background-image: url(friends.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .glass-box {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 20px;
+      padding: 35px;
+      text-align: center;
+      margin-left: 20%;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    p {
+      font-size: 1.3rem;
+      font-style: italic;
+      color: #f0f0f0;
+      margin-bottom: 40px;
+      max-width: 600px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      color: #fff;
+      box-shadow: 0 5px 0 rgba(0, 0, 0, 0.3);
+      transition: all 0.2s ease-in-out;
+    }
+
+    button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    button:nth-child(1) {
+      background-color: #8B4513; /* brown */
+    }
+
+    button:nth-child(2) {
+      background-color: #FFD700; /* yellow */
+      color: #333;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="glass-box">
+    <h1>Set Boundaries</h1>
+    <p>“Kindness without limits invites disrespect.”</p>
+
+    <div class="buttons">
+      <button onclick="location.href='page12.html'">Previous Page</button>
+      <button onclick="location.href='page14.html'">Next Page</button>
+    </div>
+  </div>
+
+</body>
+</html>

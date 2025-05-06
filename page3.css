@@ -1,0 +1,95 @@
+
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  background-image: url(sunflower.png);
+  background-repeat: no-repeat;
+  background-size: cover;        /* This makes the image cover the entire screen */
+  background-position: center;   /* This centers the image */
+  margin: 0;                     /* Removes default browser spacing */
+  height: 100vh;                 /* Ensures body takes full viewport height */
+}
+
+.glass-box {
+  position: absolute;
+  top: 51%; /* moved slightly upward */
+  right: 25%;
+  transform: translateY(-50%);
+  width: 35vw;
+  max-width: 460px;
+  padding: 25px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(50%);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.4),
+    0 0 30px rgba(255, 255, 255, 0.1),
+    inset 0 0 15px rgba(255, 255, 255, 0.05);
+  text-align: center;
+  transition: transform 0.4s ease;
+}
+
+
+/* Hover effect */
+.glass-box:hover {
+  transform: translateY(-50%) scale(1.02);
+}
+
+
+
+/* Quote */
+.quote {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: -16px; /* Shift upward without taking space */
+  position: relative;
+  top: -9px;          /* Fine-tune upward position */
+  font-family: 'Cormorant Garamond', serif;
+  color: rgb(19, 18, 19);
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.morning-btn {
+  padding: 8px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #420b49;
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.morning-btn:hover {
+  background: rgba(255, 255, 255, 0.35);
+  transform: translateY(-2px);
+  color: #000;
+}
+
+h1 {
+  font-family: 'Lavishly Yours', cursive;
+  font-size: 4rem;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.morning {
+  color: rgb(14, 13, 13);
+}
+
+.vibes {
+  color: #14990a;
+}
+

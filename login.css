@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url("Purple.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 110px; /* adjust to move more or less to top */
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 70px;
+  color: #4b3b5c;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  animation: float 3s ease-in-out infinite;
+  position: relative;
+  padding-bottom: 5%;
+}
+
+.by {
+  font-style: italic;
+  font-size: 20px;
+  color: #5e4b6a;
+  margin-bottom: 25px;
+}
+
+button {
+  padding: 14px 32px;
+  background: linear-gradient(to bottom, #b185db, #845ec2);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 5px #5c3c94;
+
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+button:hover {
+  background: linear-gradient(to bottom, #a16de0, #6c4bb3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px #4e2c69;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Floating animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}

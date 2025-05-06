@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    background-image: url("cat.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: 600px auto;
+
+  }
+  
+  .login-container {
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+   h1 {
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 90px;
+    color: #000000;
+}
+.text-container {
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    transform: translateY(-50%);
+    text-align: right;
+  }
+ 
+  button {
+    position: absolute;
+    right: 20%;
+    bottom: 40%;
+    background: #f0ca85; /* soft peach-pink */
+    color: #682d0d; /* warm brown text */
+    border: none;
+    padding: 14px 36px;
+    font-size: 28px;
+    font-family: 'Dancing Script', cursive;
+  
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 
+      8px 8px 15px #585757,   /* dark shadow */
+     -6px -6px 12px #fff2d9;  /* light highlight */
+    text-shadow: 1px 1px 2px #e4ac78;
+  }
+  
+  button:hover {
+    background: #db9943;
+    transform: translateY(-3px);
+    box-shadow: 
+      4px 4px 10px #d1a879, 
+     -3px -3px 8px #fff2d9;
+  }
+  
+  button:active {
+    background: #ffcc88;
+    transform: translateY(2px);
+    box-shadow: inset 3px 3px 6px #c08c5c;
+  }
+  
+  

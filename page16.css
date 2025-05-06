@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: 'Georgia', serif;
+  min-height: 100vh;
+  background: url('water.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #0e0d0d; /* Light text for dark background */
+}
+
+.content-section {
+  margin-top: -10px; /* Moves title and paragraph upward */
+}
+
+
+/* Title styling */
+.title {
+  font-size: 2.5rem;
+  color: #ff4b2b;
+  text-align: center;
+  margin-top: -80px; /* Move up */
+  margin-bottom: 20px;
+  left: -110px; /* Move title to the left */
+  position: relative;
+
+}
+
+.novel {
+  margin-top: -20px; /* Move the novel paragraph up slightly */
+}
+
+
+/* Story text styling */
+.novel {
+  max-width: 850px;
+  margin-left: auto;
+  text-align: left;
+  line-height: 2;
+  font-size: 18px; /* 👈 Text size added */
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  margin-right: 15px;
+  font-size: 16px;
+  background-color: #e66a06;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.3);
+  
+
+}
+
+button:hover {
+  background-color: #ff9800;
+  transform: translateY(-3px);
+  box-shadow: 0 8px #7e4c01; /* deeper 3D effect on hover */
+  
+}
+
+
+.audio-player {
+  margin: -10px 0 15px 30px; /* pulls it higher up */
+
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.5); 
+  padding: 5px;
+  border-radius: 10px;
+  width: fit-content;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  position: relative;
+  left: 1027px; /* more right */
+
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px); /* for Safari */
+}
+
+.audio-player p {
+  font-size: 16px;
+  color: #0c0c0c;
+  margin: 0 0 5px 0;
+}
+
+
+.audio-player audio {
+  width: 200px;
+  height: 23px;
+}

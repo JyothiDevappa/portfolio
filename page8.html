@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nothing's New</title>
+  <link href="https://fonts.googleapis.com/css2?family=Georgia&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Georgia', serif;
+      font-size: 18px;
+      line-height: 2;
+      color: #1e1e1e;
+      background: #eaeaea url('n.png') no-repeat center center fixed;
+      background-size: cover;
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+
+    .content {
+      width: 800px;
+      margin: 10px 40px 80px auto; /* Shift content block to right side */
+      background-color: transparent;
+      padding: 0 20px;
+    }
+
+    h1 {
+  font-size: 2em;
+  margin-top: 40px;         /* moves it slightly down */
+  margin-bottom: 30px;
+  color: #3a3b3b;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-left: 0px;       /* moves it a bit more to the left */
+}
+
+
+    p {
+      margin-bottom: 28px;
+      text-align: left; /* Proper paragraph alignment */
+      margin-top: 20px;
+    }
+
+    .ending {
+      font-weight: bold;
+      font-style: italic;
+      color: #3a3a3a;
+      text-align: center;
+      margin-top: 50px;
+      font-size: 1.2em;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 40px;
+      padding-bottom: 80px;
+    }
+
+    
+    .btn {
+      font-family: 'Georgia', serif;
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 12px;
+      background-color: #5a4e4e;
+      color: #fff3e0;
+      cursor: pointer;
+      margin-left: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 6px #3e3e3e;
+    }
+
+    .btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    @media (max-width: 900px) {
+      .content {
+        width: 90%;
+        margin: 40px auto;
+      }
+
+      h1 {
+        font-size: 2em;
+        margin-left: 0;
+      }
+    }
+  
+
+  
+.audio-player p {
+  margin: 0 0 4px 0;
+  font-size: 14px;
+  color: #72a4bb;
+  font-family: 'Cormorant Garamond', serif;
+}
+.audio-player {
+  position: absolute;
+  top: 30px;          /* a little space from the top */
+  right: 40px;        /* not too close to the right edge */
+  background: linear-gradient(to bottom right, #f0f0f0, #dcdcdc); /* soft paper gradient */
+  padding: 8px 12px;
+  border-radius: 10px;
+  width: fit-content;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  z-index: 10;
+  text-align: left;
+}
+
+
+
+
+/* Small and neat audio control */
+.audio-player audio {
+  width: 250px;
+  height: 25px;
+}
+
+</style>
+</head>
+<body>
+
+  <div class="audio-player">
+    <p>🎵 Play while reading</p>
+    <audio controls>
+      <source src="@t_my_worst.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+  </div>
+
+  <div class="content">
+    <h1>The Quiet Loop</h1>
+    <p class="quote"><b>"Even when the world changes, some of us are stuck in the same place,<br>  wondering when things will feel different."</b></p>
+
+
+    <p>Every day feels the same, like the pages of a book that never turn. The morning alarm rings, but it's hard to get out of bed. The thoughts in the head never stop. It’s a mix of overthinking, fear, and that overwhelming feeling of uncertainty.</p>
+
+    <p>The routine is stuck on repeat—wake up, scroll through Instagram, think about what could be done, but nothing really changes. The same worries fill the mind, like a storm that never clears. Every task, every small decision feels like a mountain. There’s that fear of failing, of not doing enough, or being too much.</p>
+
+    <p>Outside, everything seems to move faster, but here, the days feel like they drag on. People talk, they laugh, and they share stories—like it’s all so easy. But for some reason, it feels like the words don’t come out the way they should. Every conversation feels like a battle to express what’s inside.</p>
+
+    <p>At times, there's a desire to break free, to do something different, something exciting. But the thought of change is paralyzing. The unknown feels so heavy, like it’s better to stay where it's familiar, even if it’s uncomfortable.</p>
+
+    <p>There’s an awareness that life is slipping by, and yet, it's hard to let go of the comfort of what’s known. Every dream feels like it could slip through the fingers, and that fear of missing out becomes a constant shadow.</p>
+
+    <p>But still, the days go on. The world outside keeps spinning, while inside, there’s a search for meaning in the small moments. For now, nothing feels new, nothing feels different—but maybe, one day, it will.</p>
+
+    <p>Everything around me has changed, but I feel like I haven't. I'm still stuck in the same mindset, the same struggles, while the world moves on.</p>
+
+    <p>I’ve cried so many times without even knowing the reason—just feeling lost, not understanding what I’m doing, or why I came here. I keep asking myself if I’m even good enough to build a better future.</p>
+
+    <p>I’m scared of my own people. If someone asks me, “What are you doing this year?” I freeze. I don’t know how to answer. I don’t know what to say.</p>
+
+    <p>I feel completely stuck. Everything is moving, everything is changing—but I’m standing still.</p>
+
+    <p class="ending">Still breathing. Still hoping. Still waiting for that one moment when something—anything—finally feels new.</p>
+
+    <div class="button-container">
+      <button class="btn" onclick="window.location.href='page7.html'">Go Back</button>
+      <button class="btn" onclick="window.location.href='page9.html'">What Comes Next?</button>
+    </div>
+  </div>
+
+</body>
+</html>

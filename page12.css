@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+  color: #000000;
+  line-height: 1.8;
+  
+  background-image: url(jackie.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 640px;
+  margin: 8px 0 60px 19px; /* top right bottom left */
+  border-radius: 12px;
+  padding: 30px 20px;
+}
+
+
+h1 {
+  text-align: left;       /* Aligns text to the left */
+  font-size: 2.1em;
+  font-weight: bold;
+  color: #1c4780;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px #ffffff;
+  margin-left: 0;         /* No left margin */
+}
+
+  
+   
+p {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+.quote, .final-quote {
+  font-weight: bold;
+  color: #6e4c3e;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.final-quote {
+  font-size: 1.2em;
+  color: #4b2e23;
+}
+
+.button-container {
+  position: fixed; /* Or use absolute if within a relative parent */
+  bottom: 45px;
+  right: 70px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+.btn {
+  padding: 14px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(3, 27, 54, 0.4); /* semi-transparent orange */
+  color: #0f0f0f;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+.btn:hover {
+  background: rgba(255, 140, 0, 0.6); /* deeper orange */
+  transform: scale(1.05) translateY(-4px);
+  box-shadow: 6px 6px 15px #cba579, -6px -6px 15px #fff2e1;
+}
+

@@ -1,0 +1,54 @@
+body {
+  background-image: url(page9.png);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Cormorant Garamond', serif;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  padding-left: 20vw;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.8em;
+  color: #37465c;
+  margin-bottom: 20px;
+}
+
+.quote {
+  font-size: 1.2em;
+  color: #5c4d3d;
+  font-family: 'Cormorant Garamond', serif;
+  margin-bottom: 40px;
+  margin-left: -50px; /* moves it more to the left */
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+  padding-bottom: 80px;
+  margin-left: -80px; /* adjust this value as needed */
+}
+
+
+.btn {
+  font-family: 'Georgia', serif;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  background-color: #5a4e4e;
+  color: #fff3e0;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
